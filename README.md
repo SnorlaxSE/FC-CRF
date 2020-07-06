@@ -6,7 +6,7 @@ Efficient Inference in Fully Connected CRFs with Gaussian Edge Potentials 代码
 
 
 | Input | annotation | Output |
-| ------|-----:|-----:|
+| :------:|:-----:|:-----:|
 | ![][inp_1] | ![][anno_1] | ![][out_1] |
 | ![][inp_2] | ![][anno_2] | ![][out_2] |
 | ![][inp_3] | ![][anno_3] | ![][out_3] |
