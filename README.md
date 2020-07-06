@@ -2,15 +2,19 @@
 
 Efficient Inference in Fully Connected CRFs with Gaussian Edge Potentials 代码复现
 
-##　outputs
+## Usage 
 
+```shell
+build/examples/dense_inference examples/im1.ppm examples/anno1.ppm output1.ppm
+```
+
+## outputs
 
 | Input | annotation | Output |
 | :------:|:-----:|:-----:|
 | ![][inp_1] | ![][anno_1] | ![][out_1] |
 | ![][inp_2] | ![][anno_2] | ![][out_2] |
 | ![][inp_3] | ![][anno_3] | ![][out_3] |
-
 
 
 [inp_1]: https://github.com/SnorlaxSE/FC-CRF/blob/master/outputs/im1.png
@@ -23,4 +27,8 @@ Efficient Inference in Fully Connected CRFs with Gaussian Edge Potentials 代码
 [out_2]: https://github.com/SnorlaxSE/FC-CRF/blob/master/outputs/output_2.png
 [out_3]: https://github.com/SnorlaxSE/FC-CRF/blob/master/outputs/output_3.png
 
-参考：https://github.com/lucasb-eyer/pydensecrf、
+## Reference
+
+https://github.com/lucasb-eyer/pydensecrf
+
+
